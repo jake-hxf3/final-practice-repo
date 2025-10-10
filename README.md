@@ -1,4 +1,4 @@
-# Midterm Project Debate: ßFender vs. Gibson 🎸
+# Midterm Project Debate: Fender vs. Gibson 🎸
 ![A Fender Guitar](images/fender.jpg)
 ß
 This is a partner based project which we will debate who makes the better guitar.
