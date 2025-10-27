@@ -1,7 +1,7 @@
-# Midterm Project Debate: Fender vs. Gibson 🎸
-![A Fender Guitar](images/fender.jpg)
+# Project
+![insert alt text](images/example.jpg)
 ß
-This is a partner based project which we will debate who makes the better guitar.
+This is a [...] project about [...]
 
 ## Installation 💻
 No installation required, simply download the zip file and extract.
