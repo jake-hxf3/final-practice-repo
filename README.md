@@ -1,7 +1,7 @@
-# Midterm Project Debate: Fender vs. Gibson 🎸
-![A Fender Guitar](images/fender.jpg)
+# Marvel Comic Page build Project
+![Marvel Logo](images/logo.svg)
 ß
-This is a partner based project which we will debate who makes the better guitar.
+This is a page build project which features Marvel Comics characters.
 
 ## Installation 💻
 No installation required, simply download the zip file and extract.
