@@ -1,3 +1,91 @@
+/* Ultility classes */
+
 .hidden{
     display: none;
+}
+
+/* General rules */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: #fff;
+}
+
+/* Main Header */
+header {
+    background-color: red;
+    /* padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    padding-right: 0; */
+    padding: 10px 0;
+}
+
+#main-logo{
+    display: block;
+    width: 300px;
+    /* top and bottom margins are 0, right and left are auto*/
+    margin: 0 auto; /* auto means equal */
+}
+
+/* Character Nav */
+#character-nav{
+    background-color: #675050;
+    background-image: url(../images/characters_bg.jpg);
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-size: cover;
+    background-blend-mode: screen;
+}
+
+#characters{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#characters li{
+    display: inline-block;
+    margin: 10px;
+}
+
+#characters li img{
+    border: solid 1px #fff;
+    padding: 10px;
+    background-color: black;
+    box-shadow: 0px 0px 10px 0 rgba(255, 255, 255, 0.9);
+    transition: all 0.5s ease-in-out;
+}
+
+#characters li a{
+    text-decoration: none;
+}
+
+#characters li img:hover{
+    filter: grayscale(100%);
+    border-radius: 50%;
+}
+
+#instructions{
+    padding: 20px;
+}
+
+#instructions h3{
+    font-size: 32px;
+    text-align: center;
+}
+
+#instructions p{
+    font-size: 18px;
+    text-align: center;
+}
+
+#main-footer{
+    height: 80px;
+    background-color: rgb(40, 37, 37);
+    padding: 20px 0;
+    text-align: center;
 }
