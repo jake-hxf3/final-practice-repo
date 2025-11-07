@@ -1,3 +1,30 @@
+.square{
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(135deg, red, green);
+    margin-left: 0;
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fade{
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+        margin-left: 200px;
+    }
+
+    100% {
+        opacity: 0;
+        margin-left: 0;
+    }
+}
+
 #ghost{
     width: 200px;
     animation: spin-scale 2s ease-in-out infinite;
