@@ -66,7 +66,7 @@ header {
 
 #characters li img:hover{
     filter: grayscale(100%);
-    border-radius: 50%;
+    border-radius: 0 0 0 50%;
 }
 
 #instructions{
@@ -88,4 +88,59 @@ header {
     background-color: rgb(40, 37, 37);
     padding: 20px 0;
     text-align: center;
+}
+
+/*Lightbox rules*/
+.lightbox{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    inset: 0 0;
+    z-index: 2;
+    background-color: rgba(0,0,0,0.85);
+    background-repeat: no-repeat;
+    background-size: 55vh;
+    background-position: 40px bottom;
+}
+
+.lightbox:target{
+    display: block;
+}
+
+#lightbox1{
+    background-image: url(../images/Cap_LB_Bg.png);
+}
+
+#lightbox3{
+    background-image: url(../images/Thor_LB_Bg.png);
+}
+
+.lightbox-close{
+    display: block;
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 3vh;
+    margin-left: 95vw;
+    transition: all .5s ease-in-out;
+}
+
+.lightbox-close:hover{
+    color: red;
+}
+
+.lightbox section{
+    width: 600px;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+
+.lb-heading{
+    font-size: 32px;
+}
+
+.lightbox p{
+    line-height: 26px;
 }
